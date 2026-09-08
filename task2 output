@@ -1,0 +1,14 @@
+AI Bot: Hello! I am JavaBot.
+AI Bot: Type 'bye' to exit.
+You: hi
+Bot: Hello! How are you?
+You: what is java
+Bot: Java is a object-oriented programming language.
+You: explain ai
+Bot: AI means Artificial Intelligence.It helps computers performs task that need human.
+You: what is nlp
+Bot: NLP means Natural Language Process. NLP helps computers understand human language.
+You: what is ml
+Bot: Sorry, I don't understand.
+You: bye
+Bot: Goodbye!
