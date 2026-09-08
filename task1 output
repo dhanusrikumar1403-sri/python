@@ -1,0 +1,16 @@
+Enter number of students: 3
+Enter student 1 name: keerthi
+Enter keerthi's grade: 82
+Enter student 2 name: lakshmi
+Enter lakshmi's grade: 94
+Enter student 3 name: paramu
+Enter paramu's grade: 79
+Total Grade: 255
+Average Grade: 85.00
+Highest Grade: 94
+Lowest Grade: 79
+
+----- Student Summary Report -----
+keerthi : 82
+lakshmi : 94
+paramu : 79
