@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class AIchatbot {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("AI Bot: Hello! I am JavaBot.");
+        System.out.println("AI Bot: Type 'bye' to exit.");
+
+        while (true) {
+
+            System.out.print("You: ");
+            String input = sc.nextLine().toLowerCase();
+
+            if (input.contains("hello") || input.contains("hi")) {
+                System.out.println("Bot: Hello! How are you?");
+            }
+            else if (input.contains("java")) {
+                System.out.println("Bot: Java is a object-oriented programming language.");
+            }
+            else if (input.contains("ai")) {
+                System.out.println("Bot: AI means Artificial Intelligence.It helps computers performs task that need human.");
+            }
+            else if (input.contains("nlp")) {
+                System.out.println("Bot: NLP means Natural Language Process. NLP helps computers understand human language.");
+            }
+            else if (input.contains("bye")) {
+                System.out.println("Bot: Goodbye!");
+                break;
+            }
+            else {
+                System.out.println("Bot: Sorry, I don't understand.");
+            }
+        }
+
+        sc.close();
+    }
+}
